@@ -1,17 +1,18 @@
 ![AutoCode Agent Global Workflow](./static/images/autocode.png)  
 
-# AutoCodeAgent - An innovative AI agent powered by IntelliChain, Deep Search, multi-RAG and Reinforcement Learning.
+# 
+IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation - An innovative AI agent powered by IntelliChain, Deep Search, multi-RAG and Reinforcement Learning.
 ![version](https://img.shields.io/badge/version-1.8.0-blue)
 
 ## Learn by Doing: Bridging Theory and Practice
-This repository was primarily created as a learning tool. It allows you to explore and understand the core concepts behind advanced AI features like IntelliChain, Deep Search, and Multi-RAG through dedicated Jupyter Notebook files (`.ipynb`). These notebooks clearly explain the underlying theory. You can then see these very concepts applied directly within the working code of the AutoCodeAgent project. This approach is highly effective for learning because it bridges the gap between theoretical understanding and practical implementation, enabling you to see *how* and *why* things work in a real-world application context.
+This repository was primarily created as a learning tool. It allows you to explore and understand the core concepts behind advanced AI features like IntelliChain, Deep Search, and Multi-RAG through dedicated Jupyter Notebook files (`.ipynb`). These notebooks clearly explain the underlying theory. You can then see these very concepts applied directly within the working code of the  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation project. This approach is highly effective for learning because it bridges the gap between theoretical understanding and practical implementation, enabling you to see *how* and *why* things work in a real-world application context.
 
 ### From the Creator
-I'm Samuele Giampieri, an AI Engineer captivated by the frontier of agentic AI. Why this repository? Because I believe the best way to truly grasp the power of technologies like IntelliChain, Deep Search, and Multi-RAG is to *build* with them. AutoCodeAgent is my personal deep dive—a place where I transform complex theory into tangible, working code.
+I'm Samuele Giampieri, an AI Engineer captivated by the frontier of agentic AI. Why this repository? Because I believe the best way to truly grasp the power of technologies like IntelliChain, Deep Search, and Multi-RAG is to *build* with them.  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation is my personal deep dive—a place where I transform complex theory into tangible, working code.
 
 But this journey isn't just for me. I've crafted this project as an open resource, hoping it serves as both a practical guide and a source of inspiration for fellow developers navigating the exciting landscape of AI. My goal is to contribute something valuable back to the community that fuels my passion.
 
-I genuinely hope AutoCodeAgent proves useful in your own development adventures. Please feel free to connect—I'm always eager to discuss ideas, share insights, and learn alongside you!
+I genuinely hope  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation proves useful in your own development adventures. Please feel free to connect—I'm always eager to discuss ideas, share insights, and learn alongside you!
 
 
 ### IntelliChain
@@ -34,12 +35,13 @@ The key advantage of DQN is its ability to **generalize**: it can estimate value
 To bridge theory and practice, we've implemented the DQN within a sophisticated system called RL Meta RAG (detailed in [notebook](./tools/rag/rl_meta_rag/rl_meta_rag.ipynb)). This system acts as an intelligent orchestrator, using the DQN agent to dynamically choose the most suitable RAG technique (like Llama Index, HyDE, Adaptive RAG and more...) for any given user query. The agent's 'state' is derived from features extracted from the query itself using an LLM, allowing it to learn an optimal selection policy over time. This practical application demonstrates how DQN can optimize complex decision-making processes, such as selecting the best information retrieval strategy based on experience.
 
 
-By fusing these potent fetaures, AutoCodeAgent transforms intricate challenges into innovative, actionable solutions, setting a new standard in intelligent automation and advanced research.
+By fusing these potent fetaures, 
+IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation transforms intricate challenges into innovative, actionable solutions, setting a new standard in intelligent automation and advanced research.
 
 [Application Setup](#application-setup)  
 Step-by-step guide to setting up the project for the first time. 
 
-AutoCodeAgent provides flexible integration with Large Language Models (LLMs) through both local and cloud-based solutions.
+ IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation provides flexible integration with Large Language Models (LLMs) through both local and cloud-based solutions.
 Our agentic framework can communicate with LLM models in two ways:
 
 1. **Local Integration**: Using Ollama to run models directly on your machine using our prebuilt Docker container. 
@@ -67,7 +69,7 @@ Here, the main features of the project are listed and described.
 This section explains the various methods available for adding tools to the project.
 
 [Video Demo](#video-demo)  
-Explore the full potential of AutoCodeAgent by watching these demonstration videos.
+Explore the full potential of  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation by watching these demonstration videos.
 
 [Parameters](#parameters)  
 Description of the parameters to use in CodeAgent constructor. 
@@ -117,13 +119,13 @@ Description of the parameters to use in Deep Search constructor.
 ## Multi-RAG sections
 
 [All RAG Techniques](#all-rag-techniques)  
-AutoCodeAgent 2.0 dynamically integrates multiple RAG techniques within the Intellichain subtask code generation process. This dynamic integration enables the agent to seamlessly switch between methods tailored for different data ingestion and retrieval challenges—whether it's processing direct chat inputs, executing automated subtasks, or handling batch document uploads.  
+ IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0 dynamically integrates multiple RAG techniques within the Intellichain subtask code generation process. This dynamic integration enables the agent to seamlessly switch between methods tailored for different data ingestion and retrieval challenges—whether it's processing direct chat inputs, executing automated subtasks, or handling batch document uploads.  
 
 By embedding these techniques as dynamic tools, the system automatically selects the most efficient approach based on the specific task, ensuring a streamlined and adaptive workflow. This allows for effective interaction with both structured and unstructured data, optimizing the retrieval process regardless of the data format or complexity.  
 
 In addition to their operational benefits, these RAG techniques serve as valuable educational resources. Detailed Jupyter Notebook (.ipynb) files are provided for each method, offering comprehensive explanations, practical code examples, and insights into the underlying concepts. This didactic component makes it easy for users to learn and experiment with each technique, bridging the gap between theoretical understanding and real-world application.  
 
-In essence, AutoCodeAgent 2.0 not only enhances data processing through its dynamic, integrated RAG tools but also empowers users with the knowledge to master advanced data ingestion and retrieval techniques.  
+In essence,  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0 not only enhances data processing through its dynamic, integrated RAG tools but also empowers users with the knowledge to master advanced data ingestion and retrieval techniques.  
 
 Dive into this section and explore each technique step by step!  
 
@@ -142,12 +144,12 @@ This setup ensures that all necessary services are built and started correctly.
  1. Clone the repository:
 
 ```bash
-git clone https://github.com/samugit83/AutoCodeAgent2.0
+git clone https://github.com/samugit83/ IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation2.0
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd AutoCodeAgent2.0
+cd  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation2.0
 ```
 
 3. Environment Variables:
@@ -173,7 +175,7 @@ SERPER_API_KEY=API_KEY # serpapi api key for deep search mode (optional, the scr
 ```
 
 4. File params.py
-The `params.py` file contains a comprehensive configuration dictionary that controls the behavior of AutoCodeAgent 2.0's various RAG (Retrieval-Augmented Generation) systems and tools. This configuration file centralizes all adjustable parameters, making the system highly customizable.
+The `params.py` file contains a comprehensive configuration dictionary that controls the behavior of  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0's various RAG (Retrieval-Augmented Generation) systems and tools. This configuration file centralizes all adjustable parameters, making the system highly customizable.
 Additionally, it configures database paths for various vector stores (ChromaDB, LlamaIndex), email functionality credentials, and specifies which AI models to use for different components of the system (tool assistance, planning, evaluation, web automation, and search).
 You can set which models to use throughout the system - whether cloud-based models from OpenAI or local models running through Ollama or any other API-compatible service. Models can be specified by prefixing with "local_" for local models (e.g., "local_llama3") or using the standard model name for cloud services (e.g., "gpt-4o").
 This centralized configuration allows users to set the system's behavior by adjusting parameters without modifying core code.
@@ -246,7 +248,7 @@ These files serve the user interface for the AI chat and related functionalities
 # IntelliChain
 
 ## Introduction to IntelliChain
-Welcome to the AutoCodeAgent IntelliChain Mode! This intelligent agent leverages cutting-edge AI techniques to automatically generate, execute, and refine Python code in a modular and iterative way. It is designed to break down complex tasks into manageable subtasks, generate precise code for each, and orchestrate their execution using a variety of tools and libraries.
+Welcome to the  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation IntelliChain Mode! This intelligent agent leverages cutting-edge AI techniques to automatically generate, execute, and refine Python code in a modular and iterative way. It is designed to break down complex tasks into manageable subtasks, generate precise code for each, and orchestrate their execution using a variety of tools and libraries.
 The Advanced AI Code Agent is an AI-powered system that automates the process of decomposing complex problems, writing Python code, executing that code, and evaluating the results. It uses a combination of AI language models, dynamic code execution, and an evaluation loop to refine its approach until the task is successfully completed. This repository provides a robust framework that you can extend to solve a wide range of problems by simply defining new tasks and integrating appropriate tools.
 
 IntelliChain allows you to handle complex tasks such as:
@@ -268,7 +270,7 @@ IntelliChain allows you to handle complex tasks such as:
 - *"Search for the latest news about the latest Ferrari model, summarize it, and save it in the LlamaIndex database. After that, make 3 different queries on the database to check if the information was stored correctly. Finally, send me a report by email to your_email@gmail.com"*
 
 
-AutoCodeAgent introduces RAG (Retrieval-Augmented Generation) capabilities, empowering the system with multi RAG techniques, each having its own ingestion and retrieval tools. 
+ IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation introduces RAG (Retrieval-Augmented Generation) capabilities, empowering the system with multi RAG techniques, each having its own ingestion and retrieval tools. 
 The system uses many persistent Database integrated in Docker, like Vector ChromaDB, Graph Neo4j, and Others.
 The great potential of this agent lies in its ability to use many RAG techniques as tools for both ingestion and retrieval.
 For example, to save a web search in the database, simply create the prompt specifying the tool, such as: search for the latest news on Elon Musk and save it in the database using the tool: "ingest_hybrid_vector_graph_rag_db"
@@ -547,7 +549,7 @@ def function_name(previous_output):
 ```
 
 ## Video Demo
-Discover the capabilities of AutoCodeAgent with those videos:<br>
+Discover the capabilities of  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation with those videos:<br>
 [General Video Demo](https://youtu.be/T3Ej4-eeDag).<br>
 [Project explanation Video Demo](https://youtu.be/4XGYf0ePSUY).<br>
 [Hybrid Vector Graph RAG Video Demo](https://youtu.be/a9Ul6CxYsFM).<br>
@@ -620,7 +622,7 @@ If you have set use_default_tools to True, you can enable or disable specific to
 
 SurfAi is an intelligent and lightweight web automation engine that harnesses AI to interpret natural language instructions and automate web interactions using Playwright. It seamlessly integrates large language model capabilities with browser automation to execute complex tasks.
 
-The groundbreaking innovation lies in its integration as a tool within AutoCodeAgent, enabling the execution of even more sophisticated tasks. SurfAi allows users to navigate web pages, interact with them, extract information, and visually analyze images, ultimately delivering a structured output for the next tool in the complex task workflow.
+The groundbreaking innovation lies in its integration as a tool within  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation, enabling the execution of even more sophisticated tasks. SurfAi allows users to navigate web pages, interact with them, extract information, and visually analyze images, ultimately delivering a structured output for the next tool in the complex task workflow.
 
 ## Video Demo 
 Discover the capabilities of SurfAi:  
@@ -1179,11 +1181,11 @@ planner.run_planner()
 
 # All Rag Techniques
 
-Welcome to the heart of AutoCodeAgent 2.0, where the power of Retrieval-Augmented Generation (RAG) is seamlessly integrated into your workflow. Imagine having a suite of advanced RAG techniques at your disposal, each designed to handle specific data retrieval and ingestion tasks with precision and efficiency. These techniques are not just abstract concepts—they are practical tools that you can invoke with a simple prompt, enabling the agent to interact with structured and unstructured data in ways that were previously unimaginable.
+Welcome to the heart of  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0, where the power of Retrieval-Augmented Generation (RAG) is seamlessly integrated into your workflow. Imagine having a suite of advanced RAG techniques at your disposal, each designed to handle specific data retrieval and ingestion tasks with precision and efficiency. These techniques are not just abstract concepts—they are practical tools that you can invoke with a simple prompt, enabling the agent to interact with structured and unstructured data in ways that were previously unimaginable.
 
-In this section, we dive into the diverse RAG techniques that AutoCodeAgent 2.0 offers, each tailored to address unique challenges in data processing and retrieval. Whether you're working with vector databases, graph databases, or a hybrid of both, these tools empower the agent to ingest, retrieve, and analyze data with unparalleled accuracy and speed. From simple RAG for straightforward tasks to the sophisticated Hybrid Vector Graph RAG for complex, multi-layered data relationships, every technique is designed to enhance the agent's capabilities and make your workflow more efficient.
+In this section, we dive into the diverse RAG techniques that  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0 offers, each tailored to address unique challenges in data processing and retrieval. Whether you're working with vector databases, graph databases, or a hybrid of both, these tools empower the agent to ingest, retrieve, and analyze data with unparalleled accuracy and speed. From simple RAG for straightforward tasks to the sophisticated Hybrid Vector Graph RAG for complex, multi-layered data relationships, every technique is designed to enhance the agent's capabilities and make your workflow more efficient.
 
-Think of these RAG techniques as your personal data assistants, ready to fetch, store, and process information at your command. With AutoCodeAgent 2.0, you're not just working with data—you're orchestrating it. Let's explore how each RAG technique can transform the way you interact with information, making your tasks smarter, faster, and more intuitive.
+Think of these RAG techniques as your personal data assistants, ready to fetch, store, and process information at your command. With  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0, you're not just working with data—you're orchestrating it. Let's explore how each RAG technique can transform the way you interact with information, making your tasks smarter, faster, and more intuitive.
 
 Each RAG technique is thoroughly documented in dedicated .ipynb files located in their respective technique folders. These Jupyter notebooks provide detailed explanations, code examples, and implementation details that can be extremely valuable for educational purposes. We encourage you to explore these notebooks to gain a deeper understanding of the concepts and mechanisms behind each technique, making them an excellent resource for learning and experimentation.
 
@@ -1359,7 +1361,7 @@ RL Meta RAG introduces a higher level of abstraction by employing Reinforcement 
 This meta-approach allows the system to leverage the strengths of different RAG methods and adapt its strategy intelligently, moving towards a more robust and self-improving information retrieval system.
 
 
-With these RAG techniques, AutoCodeAgent 2.0 transforms the way you interact with data, making it easier than ever to store, retrieve, and analyze information. Whether you're working on simple tasks or tackling complex data challenges, these tools are here to empower your workflow and unlock new possibilities.
+With these RAG techniques,  IntelliForge AI – Autonomous Multi-Agent System for Intelligent Code Generation 2.0 transforms the way you interact with data, making it easier than ever to store, retrieve, and analyze information. Whether you're working on simple tasks or tackling complex data challenges, these tools are here to empower your workflow and unlock new possibilities.
 
 
 
